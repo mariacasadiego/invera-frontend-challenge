@@ -5,9 +5,18 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "json-server --watch db.json --port 8000"
+    "dev": "json-server --watch db.json --port 8000",
+    "build": "next build",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
-  "keywords": ["challenge", "frontend", "api", "mock"],
+  "keywords": [
+    "challenge",
+    "frontend",
+    "api",
+    "mock"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
