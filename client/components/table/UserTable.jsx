@@ -261,7 +261,7 @@ const UserTable = () => {
                       {user.status.charAt(0).toUpperCase() + user.status.slice(1).toLowerCase()}
                     </span>
                   </td>
-                  <td className="pl-0.5 md:pl-1 pr-3 md:pr-4 py-2 sm:py-3 align-middle text-center overflow-visible whitespace-nowrap">
+                  <td className="pl-0.5 md:pl-1 pr-3 md:pr-8 py-2 sm:py-3 align-middle text-center overflow-visible whitespace-nowrap">
                     <div className="flex items-center justify-center gap-0.5 md:gap-1 w-full">
                       <button
                         type="button"
