@@ -270,8 +270,8 @@ const UserTable = () => {
                           e.stopPropagation();
                           handleEdit(user);
                         }}
-                        className="btn-action-edit p-0.5 rounded flex-shrink-0"
-                        aria-label="Editar usuario"
+                        className="btn-action-edit px-1 py-0.5 rounded flex-shrink-0"
+                        aria-label="Edit user"
                       >
                         <MdModeEdit size={12} className="w-3.5 h-3.5" />
                       </button>
@@ -283,8 +283,8 @@ const UserTable = () => {
                           handleDelete(user.id);
                         }}
                         disabled={isDeleting}
-                        className="btn-action-delete pr-4 py-0.5 rounded disabled:opacity-40 flex-shrink-0"
-                        aria-label="Eliminar usuario"
+                        className="btn-action-delete px-1 py-0.5 rounded disabled:opacity-40 flex-shrink-0"
+                        aria-label="Delete user"
                       >
                         <ImBin2 size={11} className="w-3 h-3" />
                       </button>
@@ -319,7 +319,7 @@ const UserTable = () => {
                   <button
                     onClick={() => handleEdit(user)}
                     className="btn-action-edit p-1 rounded flex-shrink-0"
-                    aria-label="Editar usuario"
+                    aria-label="Edit user"
                   >
                     <MdModeEdit size={18} />
                   </button>
@@ -327,7 +327,7 @@ const UserTable = () => {
                     onClick={() => handleDelete(user.id)}
                     disabled={isDeleting}
                     className="btn-action-delete p-1 rounded disabled:opacity-40 flex-shrink-0"
-                    aria-label="Eliminar usuario"
+                    aria-label="Delete user"
                   >
                     <ImBin2 size={16} />
                   </button>

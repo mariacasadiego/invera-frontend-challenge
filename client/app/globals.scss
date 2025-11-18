@@ -182,4 +182,22 @@ table tbody tr:last-child {
   border-bottom: none
 }
 
+.bg-accent-primary {
+  background-color: var(--accent-primary);
+}
+
+.border-accent-primary {
+  border-color: var(--accent-primary);
+}
+
+/* Ocultar scrollbar pero mantener funcionalidad de scroll */
+* {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE y Edge */
+}
+
+*::-webkit-scrollbar {
+  display: none; /* Chrome, Safari y Opera */
+}
+
 @import '../components/_components.scss';

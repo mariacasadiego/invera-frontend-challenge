@@ -72,7 +72,6 @@ const UserTypeChart = () => {
   return (
     <div className="card flex flex-col p-4 sm:p-5 md:p-6 text-primary">
       <h3 className="text-lg sm:text-xl md:text-2xl font-semibold mb-3 sm:mb-4">Estadistics</h3>
-
       <div className="flex flex-col md:flex-row items-center justify-around gap-4 sm:gap-6 md:gap-8">
         <div className="relative w-full max-w-[180px] sm:max-w-[200px] md:max-w-[210px] h-[180px] sm:h-[200px] md:h-[220px]">
           <ResponsiveContainer width="100%" height="100%">
@@ -108,6 +107,7 @@ const UserTypeChart = () => {
               <div className="flex items-center gap-2 flex-shrink-0">
                 <span
                   className="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-sm flex-shrink-0"
+                  style={{ backgroundColor: item.fill }}
                 />
                 <span className="text-primary whitespace-nowrap">{item.name}</span>
               </div>

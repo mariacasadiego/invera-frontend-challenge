@@ -75,7 +75,7 @@ const AddUserModal = ({ isOpen, onClose, user = null }) => {
 
   return (
     <div
-    className="modal-backdrop fixed inset-0 bg-black/30 flex justify-center items-center z-[9999] p-0 sm:p-4"
+    className="modal-backdrop fixed inset-0 bg-black/30 backdrop-blur-md flex justify-center items-center z-[9999] p-0 sm:p-4"
   >
       <div className="card p-4 sm:p-5 md:p-6 rounded-none sm:rounded-md w-full h-screen sm:h-auto sm:w-full sm:max-w-md border-0 sm:border text-primary relative flex flex-col sm:block overflow-y-auto sm:max-h-[90vh]">
         <div className="flex-1 flex flex-col justify-center sm:flex-none sm:block min-h-0">
