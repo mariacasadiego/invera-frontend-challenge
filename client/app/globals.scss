@@ -190,14 +190,13 @@ table tbody tr:last-child {
   border-color: var(--accent-primary);
 }
 
-/* Ocultar scrollbar pero mantener funcionalidad de scroll */
 * {
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE y Edge */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 *::-webkit-scrollbar {
-  display: none; /* Chrome, Safari y Opera */
+  display: none;
 }
 
 @import '../components/_components.scss';
